@@ -32,6 +32,8 @@ public class AppCell: UITableViewCell {
         iconImageView.translatesAutoresizingMaskIntoConstraints = false
         iconImageView.layer.cornerRadius = 12
         iconImageView.layer.masksToBounds = true
+        iconImageView.layer.borderColor = UIColor.lightGray.cgColor
+        iconImageView.layer.borderWidth = 1 / UIScreen.main.scale
         iconImageView.contentMode = .scaleAspectFill
         iconImageView.widthAnchor.constraint(equalToConstant: 60).isActive = true
         iconImageView.heightAnchor.constraint(equalToConstant: 60).isActive = true
